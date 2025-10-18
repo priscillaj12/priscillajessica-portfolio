@@ -1,0 +1,121 @@
+.project-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* width: 1200px;
+  height: 800px; */
+  margin: 0 auto;
+  /* background-color: #f9f9f9; */
+  border-radius: 12px;
+  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
+  padding: 20px;
+  width: 120%;          /* biar fleksibel */
+  max-width: 1200px;   /* batas maksimal biar ga kepanjangan */
+  margin: 0 auto;      /* center */
+  min-height: 500px;   /* opsional, biar tinggi stabil */
+}
+
+.project-carousel {
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  /* height: 100%; */
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+  position: relative;   /* parent positioning */
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 500px;
+  overflow: hidden;     /* biar panah gak keluar */
+}
+
+.project-img {
+  width: 1200px;
+  /* max-width: 900px; */
+  height: 500px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #adb5bd;
+  max-width: 850px;
+}
+
+.back-btn{
+  margin-bottom: 50px;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.project{
+  text-align: center;
+  padding: 30px;
+  font-size: large;
+}
+
+.tech-stack {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tech-badge {
+  background: #caf0f8;
+  color: #333;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 5px 12px;
+  border-radius: 20px;
+  border: 1px solid #caf0f8;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  line-height: 1.5;
+}
+
+.case-desc {
+  color: #000000;
+  line-height: 1.5;
+}
+
+.tech-title{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mySwiper{
+  position: relative;
+}
+
+.view-work-btn:hover {
+  background: #f0f0f0;
+}

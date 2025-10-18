@@ -1,0 +1,35 @@
+.home {
+  text-align: center;
+  margin-top: 100px;
+  font-family: sans-serif;
+  background-color: #ade8f4;
+}
+
+.slideshow {
+  position: relative;
+  height: 60px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+/* Semua span ditumpuk */
+.slideshow span {
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+  animation: fadeSlide 9s infinite;
+}
+
+/* Animasi fade + slide */
+@keyframes fadeSlide {
+  0% { opacity: 0; transform: translateY(20px); }
+  5% { opacity: 1; transform: translateY(0); }
+  30% { opacity: 1; transform: translateY(0); }
+  35% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 0; }
+}
+
+/* Atur timing tiap span */
+.slideshow span:nth-child(1) { animation-delay: 0s; }
+.slideshow span:nth-child(2) { animation-delay: 3s; }
+.slideshow span:nth-child(3) { animation-delay: 6s; }

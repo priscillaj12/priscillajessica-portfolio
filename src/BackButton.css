@@ -1,0 +1,29 @@
+.back-btn {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #081c15;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+  margin: 100px;
+  font-size: 16px;
+  align-self: flex-end;
+  /* background-color: #081c15; /* biru navy */
+  /* color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.5s; */
+  /* margin: 100px; */
+}
+
+.back-btn:hover {
+  background-color: #d8f3dc;
+  color: black;
+}

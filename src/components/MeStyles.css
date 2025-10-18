@@ -1,0 +1,50 @@
+.me {
+  position: relative;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  width: 169vh;
+}
+
+.me-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+}
+
+.me-content {
+  position: relative;
+  z-index: 2;
+  max-width: 600px;
+}
+
+.me h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.cv-button {
+  display: inline-block;
+  background: #caf0f8;
+  color: black;
+  padding: 12px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.cv-button:hover {
+  color: white;
+  background: #03045e;
+}
